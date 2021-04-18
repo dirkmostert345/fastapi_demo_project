@@ -6,9 +6,19 @@ authors = ["Dirk <dirk@thedelta.io>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+fastapi = "^0.63.0"
+SQLAlchemy = "^1.4.9"
+psycopg2-binary = "^2.8.6"
+uvicorn = "^0.13.4"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+mypy = "^0.812"
+sqlalchemy-stubs = "^0.4"
+flake8 = "^3.9.1"
+autoflake = "^1.4"
+isort = "^5.8.0"
+black = "^20.8b1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
