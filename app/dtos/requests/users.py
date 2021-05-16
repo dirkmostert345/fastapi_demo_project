@@ -1,4 +1,4 @@
-from typing import Optiona
+from typing import Optional
 from pydantic import BaseModel, UUID4
 
 class Create(BaseModel):
