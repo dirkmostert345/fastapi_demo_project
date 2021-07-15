@@ -7,7 +7,7 @@ class UserBase(BaseModel):
     surname: str
 class User(UserBase):
     id: str
-    
+
     class Config:
         orm_mode = True
 
